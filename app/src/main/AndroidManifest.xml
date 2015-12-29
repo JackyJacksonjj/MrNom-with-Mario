@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.game.project.gameproject" >
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+
+    <application
+        android:fullBackupContent="false"
+        android:allowBackup="true"
+        android:icon="@drawable/sparksterpreview"
+        android:label="Game"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MrNomGame"
+            android:label="Game" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+       <!-- <activity
+            android:name=".GameStart"
+            android:label="Game" />
+
+        <activity
+            android:name=".SingleTouchTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".FullScreenTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".RenderViewTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".ShapeTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".BitmapTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".SurfaceViewTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".MultiTouchTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".KeyTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".AccelerometerTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".MusicPlayerTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".AssetsTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".ExternalStorageTest"
+            android:label="Game" />
+
+        <activity
+            android:name=".SoundPoolTest"
+            android:label="Game" />-->
+
+    </application>
+
+</manifest>
